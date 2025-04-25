@@ -19,4 +19,14 @@ push files to a github repo
 
 pull changes from a repo
 `git pull`
++
 
+
+
+Command	Description
+git add README.md	
+        Records the changes made to the README.md file in preparation for committing them to the repository.
+git commit -m “update the new text to README.md”	
+        Commits the recorded changes to the repository with a descriptive message indicating the update made to the README.md file.
+git push origin new-branch	
+        Sends the committed changes to the remote repository and saves them in the new-branch branch.
