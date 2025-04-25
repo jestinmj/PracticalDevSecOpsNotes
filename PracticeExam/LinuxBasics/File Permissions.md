@@ -21,3 +21,16 @@ usermod command to add user to sudo group
 
 become a user
 `sudo su - john`
+
+
+Now, try reading the content of a very sensitive file on Linux, i.e., /etc/shadow.
+
+
+cat /etc/shadow
+
+Command Output
+cat: /etc/shadow: Permission denied
+Permission denied. Even though we are logged in as John we still have to explicitly specify sudo before the actual command to try performing an operation as a privileged user.
+
+So let’s try reading the content of /etc/shadow again, but this time with sudo prefix.
+`echo pdevsecops | sudo -S cat /etc/shadow`
