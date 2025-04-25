@@ -1,3 +1,10 @@
+Log into a remote machine using the following command
+`ssh -i ~/.ssh/id_rsa root@prod-cxlx0c4v`
+-i allows us to specify the private key to use to login into a remote machine
+root is a user we want to login as
+prod-cxlx0c4v is the hostname of the server
+
+
 `ssh -o "StrictHostKeyChecking=no" -i ~/.ssh/id_rsa user@hostname`
 -i allows specify the private key to use to login into a remote machine
 
@@ -46,4 +53,6 @@ prompt for user password to compelte auth.
 
 After auth, will read the public key from `~/ssh/id_rsa.pub`
 and adds it to `~/ssh/authorized_keys` on targetserver
+
+![image](https://github.com/user-attachments/assets/927218df-c48d-4b43-ab7c-48976b4e773a)
 
