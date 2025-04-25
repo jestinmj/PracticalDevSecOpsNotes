@@ -8,3 +8,4 @@ create a new file
 All non zero exit codes indicate the presence of a vulnerability
 
 Best way to understand the exit codes of a tool is to read it's documentation
+https://tldp.org/LDP/abs/html/exitcodes.html
