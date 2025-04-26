@@ -13,3 +13,6 @@ u for undo
 double dd press = line deleted
 
 Esc -> : -> set number
+
+
+https://linuxize.com/post/vim-delete-line/#deleting-lines-containing-a-pattern
